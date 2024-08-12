@@ -1,5 +1,5 @@
 ---
-# MIGHT (2008-2018) Discography - a music venture from Brighton (UK)
+# Sound Spinning (1998-2007) Discography - hungry and thirsty musicians from Brighton (UK)
 Light Music Badge web app
 
 ## Description
@@ -13,6 +13,6 @@ Small music web app for artists/bands to follow mixing/mastering featuring:
 * Download link [ if applicable ]
 * Feedback form
 
-<a href="https://soundspinning.github.io/might/"><img src="./assets/Music-Badge-sm.jpg" alt="MIGHT Music Badge"></a>
+<a href="https://soundspinning.github.io/sound-spinning/"><img src="./assets/SS_avatar_sq_01.jpg" alt="Sound Spinning Music Badge"></a>
 
 ---
