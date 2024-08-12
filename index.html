@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- HTML5 Music Badge | MB V0.4 Jul-2024
+written by Sound Spinning | https://github.com/SoundSpinning 
+-->
+
+<!-- HEAD info starts here ... -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+  <title>Music Badge | Sound Spinning</title>
+  <meta name="description" content="Music Badge App by Sound Spinning"/>
+  <!-- Favicons -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png">
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+  
+  <!-- Bootstrap CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- ICONS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <!-- Custom CSS -->
+  <link href="css/audio.css" rel="stylesheet" type='text/css'>
+  <!-- Custom CSS always last style entry ! -->
+
+</head>
+<!-- HEAD ends here ... -->
+
+<!-- BODY info starts here ... -->
+<body class="container px-0 land-1" >
+<!--[if lte IE 9]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/?locale=en">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+  
+  <div id="" class="container outer land-1 back m-0 pt-3 pb-1">
+
+    <div class="row no-show">
+      <a class="col-4 ps-3 pe-0 justify-content-center"  style="text-decoration: none;" href="#" data-bs-toggle="modal" data-bs-target="#modal-Cover" data-bs-whatever="cover" data-bs-dismiss="modal" aria-hidden="true">
+        <span class="btn-link"><small>click logo</small></span>
+        <img class="img-fluid" src="assets/SS_avatar_sq_01.jpg" alt="Sound Spinning logo">
+      </a>
+      <span class="no-show navbar-txt col-8 ps-0">
+        <a class="btn-link" href="https://soundspinning.tumblr.com" target="_blank" rel="noopener noreferrer"><h1 class="mb-0">Sound Spinning</h1></a>
+        <p class="mb-0 pt-1"><span class="sub-head">Hungry and thirsty musicians - Brighton (UK)<br></span>
+          <span class="my-0 p-0" data-bs-title="envelope-closed" aria-hidden="true"><i class="bi bi-envelope-fill"></i></span><a class="btn-link" href="mailto:soundspinning@hotmail.com">&nbsp;&nbsp;soundspinning@hotmail.com</a>
+        </p>
+        <p class="list-tit mt-sm-3">Demos <small>(1998-2007)</small></p>
+      </span>
+    </div>
+
+    <h2 class="no-show text-sm-left mb-1 d-flex justify-content-between">
+      <!-- Nav menu for TABS -->
+      <!-- JS generated -->
+      <div id="nav-tab" class="nav nav-tabs list-tit" role="tablist">
+      </div>
+      <!-- INFO button -->
+      <span data-bs-toggle="tooltip" title="Info" data-bs-placement="left" data-bs-delay="300">
+        <button type="button" class="btn btn-secondary btn-info px-2" data-bs-toggle="modal" data-bs-target="#modal-Info" data-bs-whatever="Info" data-bs-dismiss="modal" aria-hidden="true"><i class="bi bi-info-circle-fill"></i></button>
+      </span>
+    </h2>
+
+    <!-- Main TABs content -->
+    <div class="tab-content" id="nav-tabContent">
+    <!-- JS generated -->
+
+    <!-- TAB-feedback -->
+    <div class="tab-pane fade" id="nav-feedback" role="tabpanel" aria-labelledby="nav-feedback-tab">
+      <!-- novalidate -->
+      <form class="needs-validation" 
+        action="https://formspree.io/f/mzbkwyzw"
+        method="POST"
+        enctype="multipart/form-data">
+        <input name="_redirectTo" type="hidden" value="https://soundspinning.github.io/sound-spinning">
+        <!-- Subject as hidden -->
+        <input name="_subject" type="hidden" value="Sound Spinning: Demos">
+        <div class="mb-3">
+          <label for="emailInput" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="emailInput" placeholder="name@example.com" required name="_replyto">
+          <div class="invalid-feedback">
+            Please enter a valid email.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="messageInput" class="form-label">Message <small>(pls send any feedback)</small></label>
+          <textarea class="form-control" id="messageInput" rows="3" placeholder="write your feedback ..." required name="message"></textarea>
+          <div class="invalid-feedback">
+            Please enter a message.
+          </div>
+        </div>
+        <div class="col-12">
+          <button class="btn btn-secondary btn-link" type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+    <!-- TAB-feedback ends-->
+    
+    </div>
+    <!-- Main TABs content ends -->
+    
+    
+    <!-- FOOTER -->
+    <p class="no-show m-0 pt-1 ps-1 d-flex justify-content-between" style="color: grey;">
+      <small>MB v0.4 by &copy; <a class="btn-link" href="http://soundspinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small>
+    </p>
+    <!-- FOOTER ends -->
+  </div>
+  <!-- MAIN container ends -->
+
+
+  <!-- ALL MODALS from here -->
+  <!-- modal dialogues -->
+  <div class="modal fade" id="modal-Cover" tabindex="-1" role="dialog" aria-labelledby="modal-Cover" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-0 pt-3 pb-0 px-0 d-block">
+          <h4 class="modal-title mb-1 ps-2">Sound Spinning</h4>
+          <div class="modal-body m-0 p-0">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/SS_avatar_sq_01.jpg" alt="Sound Spinning music logo">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/tape_1.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/tape_2.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/tape_3.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-01_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-02_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-03_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-04_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-05_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-06_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-07_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-08_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-09_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-10_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-11_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-12_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-13_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-14_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-15_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-16_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-17_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-18_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-19_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-20_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-21_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-22_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-23_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-24_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-25_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-26_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-27_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-28_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-29_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-30_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-31_sm.jpg" loading="lazy" alt="Sound Spinning music">
+            <img class="rounded img-fluid mx-auto d-block" src="assets/media/SS_Vol.1_20240812-32_sm.jpg" loading="lazy" alt="Sound Spinning music">
+          </div>
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+          <h4 class="modal-title my-1 ps-2">Sound Spinning</h4>
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+  <!-- /.modal -->
+
+  <!-- INFO modal -->
+  <div class="modal fade" id="modal-Info" tabindex="-1" role="dialog" aria-labelledby="modal-Info" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header border-0 pt-2 pb-1 px-0 d-block">
+          <h4 class="modal-title my-1 ps-3">Sound Spinning - Bio</h4>
+          <div class="modal-body mx-0 pt-1 pb-0">
+            <ul class="mb-0">
+              <li>Hungry and thirsty musicians from Brighton (UK) - 1998 ==> 2007.</li>
+
+              <li>Links: <a href="https://SoundSpinning.tumblr.com" target="_blank" rel="noopener noreferrer" class="btn-link">Sound Spinning</a></li>
+            </ul>
+            <img class="img-fluid mx-auto d-block" src="assets/SS_avatar_sq_01.jpg" alt="Sound Spinning music logo">
+          </div>
+        </div>
+
+        <div class="modal-header border-0 pt-2 pb-1 px-0 d-block">
+          <h4 class="modal-title my-1 ps-3">Music Badge - Origins of App</h4>
+          <div class="modal-body mx-0 pt-1 pb-0">
+            <ul class="mb-0">
+              <li><em>Objectives</em>: to form a collaborative production process between the engineer and the band, so that progress is made via constructive feedback.</li>
+              <li>All tracks have been loudness normalised to a similar level as currently used by Spotify &amp; YouTube to set a fair comparison. This is a fairly recent change in music streamming, which may be the beginning of the end of the <em>Loudness War</em>.</li>
+              <li>The above means that you can open those apps in parallel, set their volume to max and compare (roughly) to the mixes. Use the main master control in your system to turn the music up / down.</li>
+              <li>This player allows for switching across tracks by clicking the play button. E.g. you can switch back / forth between tabs to compare versions of the same song.</li>
+              <li>When sending <em>Feedback</em> via the form, pls state the system you used for listening: phone, tablet, headphones, large speakers, car, etc; so that I can get some context. Have fun !</li>
+              <li>Some reading (if you're keen): <a href="https://www.masteringthemix.com/blogs/learn/76296773-mastering-audio-for-soundcloud-itunes-spotify-and-youtube" target="_blank" rel="noopener noreferrer" class="btn-link">Audio for Streamming Services</a> | <a href="https://dynamicrangeday.co.uk/about/" target="_blank" rel="noopener noreferrer" class="btn-link">Loudness War</a> | <a href="http://hyperphysics.phy-astr.gsu.edu/hbase/Sound/eqloud.html" target="_blank" rel="noopener noreferrer" class="btn-link">Equal Loudness Curves</a></li>
+            </ul>
+          </div>
+          <p class="my-1 ps-2" style="color: lightgray;">MB <small>V0.4 &nbsp;Jul-2024 &copy; <a class="btn-link" href="http://soundspinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small></p>
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+  <!-- INFO modal ends -->
+
+  <!-- LYRICS modals -->
+  <div class="modal fade" id="modal-T1-1" tabindex="-1" role="dialog" aria-labelledby="modal-T1-1Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Pole</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              TODO<br>
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="https://SoundSpinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T1-2" tabindex="-1" role="dialog" aria-labelledby="modal-T1-2Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Kind</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              In our lives, we've only got two choices.<br>
+              Being kind or looking out for ourselves,<br>
+              No matter; then I'm gone.<br>
+              <br>
+              What's with all the fear?<br>
+              And no-one offers kindness.<br>
+              If you ask it's freely given,<br>
+              Why can't the giving come first?<br>
+              <br>
+              Karma's bunk. We all receive bad fortune.<br>
+              The good deserve the good times and the bad deserve the bad,<br>
+              The good deserve the good and the bad deserve that bad...<br>
+              <br>
+              ***	Come with me.<br>
+                We'll live our own sweet remedy.<br>
+                Or what the future'll find will be us left (behind) with our dreams<br>
+                <br>
+                There's only one of two choices.<br>
+                Only got two choices.<br>
+                <br>
+              None more blessed,<br>
+              yet no-one has the answers,<br>
+              You're as likely cursed as favoured,<br>
+              by fate, by god or else!<br>
+              <br>
+              (Loud) All our lives we only have two choices,<br>
+              Being kind or looking out for ourselves<br>
+              No matter, Then, I'm gone.<br>
+              Then, I'm gone... Then, I'm gone... Then, I'm gone... Then, I'm gone.<br>
+              <br>
+              ***	Come with me.<br>
+                We'll live our own sweet remedy.<br>
+                Or what the future'll find will be us left (behind) with our dreams<br>
+                <br>
+                There's only one of two choices.<br>
+                Only got two choices.<br>
+                <br>
+              … (Outro) <br>
+              Sitting by the sea-side, long journey, I'm miles away,<br>
+              Sunshine on the edge of my eye-lids and the ocean was kind and obliged.<br>
+              Everything's fine, everything's fine, everything's fine ...<br>
+              I'm sorry, so sorry. The movie's ended this way.<br>
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="https://SoundSpinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T1-3" tabindex="-1" role="dialog" aria-labelledby="modal-T1-3Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Fate</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              Belting down the alley of fate.<br>
+              Wing mirrors flicking off the fence posts; a blur...<br>
+              Burning desire as fuel of choice,<br>
+              Belting down the alley of fate.<br>
+              <br>
+              ***	(Instrumental)<br>
+                Shhhhhhhhhh<br>
+                Shhhhhhhhhh<br>
+                <br>
+              Is this how you go about being alone?<br>
+              I know you've done it again and again and again and again and again.<br>
+              You left your car keys in the middle of the road,<br>
+              and put your faith in good will.<br>
+              There's not much around, its not worth the frown<br>
+              that you get in return for your sweet smile.<br>
+              <br>
+              ***	( x 2 )<br>
+                Random roads and random living,<br>
+                You still living, are you still living.<br>
+                Get the car keys<br>
+                You've got to run away, you've got to find a way.<br>
+                <br>
+                … and shamble round the corner,<br>
+                around the roundabouts and on your way.<br>
+                And on your way.<br>              
+                <br>
+              When you find the rose,<br>
+              will you find the key.<br>
+              When you find, when you find the road,<br>
+              Will you find, will you find you'll be free?<br>
+              Random roads.<br>
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="https://SoundSpinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T1-4" tabindex="-1" role="dialog" aria-labelledby="modal-T1-4Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">2Min</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              Instrumental
+            </p>
+            <p class="m-0 p-1"> <a class="btn-link" href="https://youtu.be/jJbLej0ywPA?si=LNPEvo1X80lRVOyB" target="_blank" rel="noopener noreferrer">2MIN Video link</a></p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="https://SoundSpinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T1-5" tabindex="-1" role="dialog" aria-labelledby="modal-T1-5Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Safe</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              TODO
+              <br>
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="https://SoundSpinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T2-1" tabindex="-1" role="dialog" aria-labelledby="modal-T2-1Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Tool <small>(blood from stone)</small></h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              Vs1<br>
+              You went off in my hand like I pulled out your pin.  Ah ha ha.<br>
+              Vacuum in my stomach when I realise trouble<br>
+              Fight this one out or eject like a pilot<br>
+              Either way, whaterver I say, <br>
+              Enough ain’t gonna satisfy it’s more that you’re after.<br>
+              <br>
+              Ch<br>
+              Blood from a stone, Blood from a stone;   Tool…<br>
+              Blood from a stone, Blood from a stone,  Yeh Yeah,<br>
+              <br>
+              Vs2<br>
+              Like a rubber band will only stretch so far.  Ah ha ha.<br>
+              You better watch your fingers or I Sound Spinning just snap back<br>
+              Fight this one out or eject like a pilot<br>
+              Either way, there’ll be hell to pay.<br>
+              I Sound Spinning as well enjoy myself and fire off some fireworks<br>
+              <br>
+              Give it over, Give it over, Give it over<br>
+              <br>
+              Ch<br>
+              Blood from a stone, Blood from a stone,  Tool<br>
+              Blood from a stone, Blood from a stone,  Tool<br>
+              Blood from a stone, Blood from a stone,  Tool<br>
+              Blood from a stone, Blood from a stone, Yeh Yeah<br>
+              <br>
+              Mid8<br>
+              I can’t work like a dog (x4)<br>
+              <br>
+              Ch<br>
+              Blood from a stone, Blood from a stone,  Tool<br>
+              Blood from a stone, Blood from a stone,  Tool<br>
+              Blood from a stone, Blood from a stone,  Tool<br>
+              Blood from a stone, Blood from a stone, Yeh Yeah <br>             
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="https://SoundSpinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T2-2" tabindex="-1" role="dialog" aria-labelledby="modal-T2-2Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Help</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              Stay put,<br>
+              You are up to no good.<br>
+              Stay still,<br>
+              You’ve got to believe.<br>
+              Running away, doesn’t give you a new day;<br>
+              Face the devil, you want to level…<br>
+              Running away, doesn’t give you a new day;<br>
+              Face the devil, you want to level…<br>
+              <br>
+              …things up,<br>
+              you can’t live like that.<br>
+              Raise the bar,<br>
+              Having a chat<br>
+              <br>
+              ***  About the things that you do.<br>
+                     About the things that you see.<br>
+                     They can make you believe, <br>
+                     they can make you believe<br>
+                     <br>
+              You are right,<br>
+              Left of right-right.<br>
+              Keep the goggles,<br>
+              It’s good for the colours.<br>
+              Running away, doesn’t give you a new day;<br>
+              Face the devil, you want to level…<br>
+              Running away, doesn’t give you a new day;<br>
+              Face the devil, you want to level…<br>
+              <br>
+              ***  About the things that you do.<br>
+                     About the things that you see.<br>
+                     They can make you believe,<br>
+                     They can make you believe.<br>          
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="https://SoundSpinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T2-3" tabindex="-1" role="dialog" aria-labelledby="modal-T2-3Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Sunday Night</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              Vs1<br>
+              You know that feeling at the start of the weekend <br>
+              when it’s all stretching out before you, suddenly<br>
+              One long blink it’s Sunday Night.<br>
+              <br>
+              Since school, twenty years of my life I’ve accrued <br>
+              And I still feel like my homework’s due.<br>
+              And I can’t believe it’s time.<br>
+              <br>
+              Well we’ll start early and won’t be late<br>
+              And I’ll be drinking while you hesitate<br>
+              Not to loose but sleep<br>
+              And brain cells<br>
+              <br>
+              Fully aware of the weekend’s end<br>
+              And if we celebrate like we’re Monday’s friend<br>
+              Then we Sound Spinning just get away with it<br>
+              <br>
+              Chorus<br>
+              Ain’t going out without a fight<br>
+              Cos’ there is still more fun to have on Sunday Night<br>
+              (I so think so)<br>
+              Ain’t going out without a fight<br>
+              Cos theirs still more fun to have on Sunday Night<br>
+              <br>
+              Vs2<br>
+              I know, I know. What was I thinking<br>
+              That I could ever outrun Sunday Night.<br>
+              But for maybe just a couple of hours<br>
+              Before Monday fully flowers.<br>
+              I can still believe we get our money’s worth out of life <br>
+              <br>
+              Chorus<br>
+              <br>
+              Outro<br>
+              I so think so.  Oooh Sunday Night<br>
+              I so think so.  Oooh Sunday Night<br>
+              I so think so.  Oooh Sunday Night<br>
+              I so think so.  Oooh Sunday Night<br>          
+            </p>
+          </div>
+
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="https://SoundSpinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T3-1" tabindex="-1" role="dialog"aria-labelledby="modal-T3-1Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Orb (bro reverse)</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              You can take your freedom,<br>
+              and shove it up your back.<br>
+              You can take your castles,<br>
+              and build a bigger one.	<br>
+              <br>
+              You can bring the noise,<br>
+              and fill a room or two.<br>
+              You can bring down a town,<br>
+              I don't care …<br>
+              <br>
+              I don't know what now  (x4)<br>
+              <br>
+              I don't see how it happens. <br>
+              I see that bird again<br>
+              I don't see how it happens.<br>
+              I repeat, every single day.	<br>
+              <br>
+              I was brought some flowers,<br>
+              I regret not to smell again.<br>
+              When I count the hours,<br>
+              none are mine and feel so ever safe.<br>
+              <br>
+              Feels so ever safe (x4) <br>
+              <br>
+              Chorus<br>
+              What a beautiful day, turn it (a)round and make it feel right. <br>
+              Turn it around and make it feel...      (x2)<br>
+              <br>
+              (Intro)<br>
+              <br>
+              I regret the hours,<br>
+              I spent feeling all the rage.<br>
+              I can feel the glory,<br>
+              but that's for only some.<br>	
+              When you lose all the hours,<br>
+              I don't care, I don't know what now.<br>
+              When you lose the hours,<br>
+              I don't care, I don't know what now.<br>
+              <br>
+              I don't know what now. (x4)<br>
+              <br>
+              Chorus<br>
+              What a beautiful day, turn it around and make it feel right. <br>
+              Turn it around and make it feel…  (x many)<br>
+              (ad libitum …)<br>
+            </p>
+          </div>
+
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="https://SoundSpinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+  </div>
+
+  <div class="modal fade" id="modal-T3-2" tabindex="-1" role="dialog" aria-labelledby="modal-T3-2Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Call</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              In my darkest hour.<br>
+              In the deepest hole.<br>
+              You took your time, and let me down, then gave me hell.<br>
+              <br>
+              You want confessions?<br>
+              You repent your sins?<br>
+              Somehow I don't have time, for your cast-iron lies,<br>
+              and your sincere tears.<br>
+              <br>
+              Wait until it falls then let me in.<br>
+              Wait until I fall then let me in.<br>
+              Let me in. (x3)<br>
+              <br>
+              Verse (repeat as above)<br>
+              <br>
+              Waiting for calls, <br>
+              confessions are made,<br>
+              Call now 999.  (x 2)<br>
+              <br>
+              Chorus<br>
+              You gonna have to let it go (x4)<br>
+              <br>
+              Waiting for calls, <br>
+              confessions are made,<br>
+              Call now 999.  (x 2)<br>
+              <br>
+              Chorus<br>
+              You gonna have to let it go (x4)<br>
+              <br>
+              Outro<br>
+              Let it be and let it go (x4)<br>
+            </p>
+          </div>
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="https://SoundSpinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+    <!-- /.modal-dialog -->
+    </div>
+
+      <div class="modal fade" id="modal-T3-3" tabindex="-1" role="dialog" aria-labelledby="modal-T3-3Label" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header pb-0 px-0 d-block">
+              <h4 class="modal-title ps-2">Them</h4>
+              <div class="modal-body col-12 m-0 p-1">
+                <p class="m-0 p-1">
+                  Verse<br>
+                    I don't wanna touch them …<br>
+                    I don't wanna feel like they do …<br>
+                    I don't want to please them anymore.<br>
+                    Anymoooooore …<br>
+                    <br>
+                    I don't want to be with them.<br>
+                    I don't feel like going all along.<br>
+                    I don't feel like coping so well.<br>
+                    So weeeeeeeell…<br>
+                    <br>
+                    Chorus<br>
+                    I would like, something dry and cold.<br>
+                    I would stretch, every single nerve.<br>
+                    I would dance, It's ok…<br>
+                    (x 2)<br>
+                    Repeat all<br>
+                    <br>
+                    Cha cha raaa cha cha raaa<br>
+                </p>
+              </div>
+              
+              <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+            </div>
+            <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="https://SoundSpinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small></p>
+            <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+          </div>
+        </div>
+      </div>
+      <!-- /.modal-content -->
+    </div>
+  <!-- /.modal-dialog -->
+
+  <div class="modal fade" id="modal-T3-4" tabindex="-1" role="dialog" aria-labelledby="modal-T3-4Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header pb-0 px-0 d-block">
+          <h4 class="modal-title ps-2">Doer</h4>
+          <div class="modal-body col-12 m-0 p-1">
+            <p class="m-0 p-1">
+              You can do, you can do, you can do,<br> 
+              you can do what you want.<br>
+              And as long, and as long, and as long, <br>
+              and as long as you know.<br>
+              <br>
+              I can do, I can do, I can do, <br>
+              I can do what I want.<br>
+              Take it in, take it out, as you know, <br>
+              you can never be found.<br>
+              <br>
+              What you gonna do, what you gonna do about it.<br>
+              What you gonna do, nothing’s gonna change.<br>
+              Nothing’s gonna change.<br>
+              <br>
+              Now you know what I'm like,<br>
+              And you know that I never back down.<br>
+              And that I may not stand for your dicking around.<br>
+              <br>
+              And you gave all your Love,<br>
+              and you took all the time in the world.<br>
+              Wrapped it all up in a bow,<br>
+              and gave it to somebody else.<br>
+              <br>
+              What you gonna do, what you gonna do about it.<br>
+              What you gonna do, nothing’s gonna change.<br>
+              Nothing’s gonna change.<br>
+              <br>
+              Idle threats in extra time,<br>
+              Wasted breath, <br>
+              I’m tired of trying, You know ...<br>
+              Yes, yes you know.<br>
+              <br>
+              Saving bridges, built and burned.<br>
+              Pasting over cracks – It'll never work.<br>
+              Yes, yes, you know, you know.<br>
+              Yes, yes, you know.<br>
+              <br>
+              You can do, you can do, you can do, <br>
+              you can do what you want.<br>
+              And as long, and as long, and as long, <br>
+              and as long as you know.<br>
+              <br>
+              I can do, I can do, I can do, <br>
+              I can do what I want.<br>
+              I won't be here when you come home.<br>
+              <br>
+              What you gonna do, what you gonna do about it.<br>
+              What you gonna do, nothing’s gonna change.<br>
+              Nothing’s gonna change.<br>
+            </p>
+          </div>
+          
+          <button type="button" class="btn btn-secondary btn-minus px-2 py-1" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+        </div>
+        <p class="my-1 ps-2 copy"><small>&copy; <a class="btn-link" href="https://SoundSpinning.tumblr.com" target="_blank" rel="noopener noreferrer">Sound Spinning</a></small></p>
+        <button type="button" class="btn btn-secondary btn-minus px-2 py-1" style="bottom: 0.1rem; top: unset;" data-bs-dismiss="modal" data-bs-toggle="tooltip" title="Close" data-bs-placement="left" data-bs-delay="300"><i class="bi bi-x-square-fill"></i></button>
+      </div>
+    </div>
+  </div>
+  <!-- /.modal-content -->
+</div>
+<!-- /.modal-dialog -->
+
+  </div>
+  <!-- LYRICS modals end -->
+
+
+  <!-- Scripts -->
+  <!-- Bootstrap CDNs -->
+  <!-- Bootstrap 5.3 Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+
+  <!-- CUSTOM JS -->
+  <script src="js/tracks.js"></script>
+  <script src="js/audio.js"></script>
+
+</body>
+<!-- BODY ends here ... -->
+</html>
