@@ -94,7 +94,7 @@
         "tabTit": "Vol.3",
         "name": "nav-m3",
         "title": "Dead Gecko EP (2005)",
-        "text": " : An EP (tracks 1 --> 4) collaboration with Ben Abis (bass) and the talented <a class='btn-link on-yellow' href='https://www.beardyman.co.uk/' target='_blank' rel='noopener noreferrer'>Beardyman</a> (vox, guitar, production), just before his beatboxing stardom! Loads of fun and fast.",
+        "text": " : An EP (tracks 1 --> 4) collaboration with Ben Abis (bass) and the talented <a class='btn-link on-yellow' href='https://www.beardyman.co.uk/' target='_blank' rel='noopener noreferrer' style='text-decoration:underline;'>Beardyman</a> (vox, guitar, production), just before his beatboxing stardom! Loads of fun and fast.",
         "active": "show active",
         "collapse": "collapse",
         "tabId": "Tracks",
@@ -126,13 +126,13 @@
           {
             "trackId":5,
             "name": "Diva",
-            "year": " (2007) - pre <a class='btn-link on-yellow' href='https://soundspinning.github.io/might/' target='_blank' rel='noopener noreferrer'>MIGHT</a> phase",
+            "year": " (2007) - pre <a class='btn-link on-yellow' href='https://soundspinning.github.io/might/' target='_blank' rel='noopener noreferrer' style='text-decoration:underline;'>MIGHT</a> phase",
             "file": "Sound Spinning - Vol.3 - 05 - Diva.mp3"
           },
           {
             "trackId":6,
             "name": "Paseando",
-            "year": " (2007) - acoustic <a class='btn-link on-yellow' href='https://www.tumblr.com/soundspinning/758786093505282048/messing-around-with-bossanova-on-beer-tweaked' target='_blank' rel='noopener noreferrer'>[ Video ]</a>",
+            "year": " (2007) - acoustic <a class='btn-link on-yellow' href='https://www.tumblr.com/soundspinning/758786093505282048/messing-around-with-bossanova-on-beer-tweaked' target='_blank' rel='noopener noreferrer' style='text-decoration:underline;'>[ Video ]</a>",
             "file": "Sound Spinning - Vol.3 - 06 - Paseando.mp3"
           }
         ]

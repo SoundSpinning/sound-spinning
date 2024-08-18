@@ -128,12 +128,21 @@ h6 {
   color: whitesmoke;
 }
 
+.btn-vid {
+  text-decoration: underline;
+}
+
 .btn-vid:hover, .btn-vid:active {
   color: goldenrod;
 }
 
 .nav-link.btn-link {
   padding: 0.5rem;
+}
+
+.tab-back {
+  background-color: black;
+  margin-right: 0.5rem;
 }
 
 .btn-secondary {

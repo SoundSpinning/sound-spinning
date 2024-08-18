@@ -10,7 +10,7 @@
             for (const tab of dataTabs) {
                 tId = tId+1;
                 tabsIndex.innerHTML +=
-                `<a class="nav-link btn-link ${tab.active}" id="${tab.name}-tab" data-bs-toggle="tab" href="#${tab.name}" role="tab" aria-controls="${tab.name}" aria-selected="false">${tab.tabTit}</a>`;
+                `<a class="nav-link btn-link tab-back ${tab.active}" id="${tab.name}-tab" data-bs-toggle="tab" href="#${tab.name}" role="tab" aria-controls="${tab.name}" aria-selected="false">${tab.tabTit}</a>`;
                 tabsContent.innerHTML +=
                 `<!-- TAB-M${tab.n_tab} -->
                 <div class="tab-pane fade ${tab.active}" id="${tab.name}" role="tabpanel" aria-labelledby="${tab.name}-tab">
@@ -56,7 +56,7 @@
                   </div>
                 </div>`;
             tabsIndex.innerHTML +=
-            `<a class="nav-link btn-link" id="nav-feedback-tab" data-bs-toggle="tab" href="#nav-feedback" role="tab" aria-controls="nav-feedback" aria-selected="false">Hi</a>`;
+            `<a class="nav-link btn-link tab-back" id="nav-feedback-tab" data-bs-toggle="tab" href="#nav-feedback" role="tab" aria-controls="nav-feedback" aria-selected="false">Hi</a>`;
         })
         .catch(error => console.error("Error fetching JSON data:", error));
 // });
