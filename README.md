@@ -11,8 +11,8 @@ Small music web app for artists/bands to follow mixing/mastering featuring:
 * Artwork
 * Contact
 * Download link [ if applicable ]
-* Feedback form
+* Feedback form [ 'Hi' tab ]
 
-<a href="https://soundspinning.github.io/sound-spinning/"><img src="./assets/SS_avatar_sq_01.jpg" alt="Sound Spinning Music Badge"></a>
+<a href="https://soundspinning.github.io/sound-spinning/"><img src="./assets/media/music_badge.jpg" alt="Sound Spinning Music Badge"></a>
 
 ---
