@@ -106,7 +106,7 @@ h6 {
 }
 
 .on-yellow {
-  color: black;
+  color: #af4c39;
 }
 
 .btn-link:hover, .btn-link:active {
@@ -138,6 +138,7 @@ h6 {
 
 .nav-link.btn-link {
   padding: 0.5rem;
+  border-color: gray;
 }
 
 .tab-back {
